@@ -12,13 +12,12 @@ If you want to use the AR Kit plugin on your project you must follow this step-b
 - Macinstosh device with Xcode 9 installed
 - Unity
 
-### Installing
-
-**Follow the next steps:**
+### Installation
 
 1. Open Unity on your device and download the [AR Kit Plugin](https://www.assetstore.unity3d.com/en/#!/content/92515)
 2. Once donwloaded, import the files off the plugin
 3. You are ready to go!
+
 
 ## Getting deeper
 
@@ -35,9 +34,9 @@ You must see something like this:
 
 ### Understanding the game objects
 
-The image on top ilustrates the current scene. Currently this game will just place one cube wherever you touch the screen. But wouldn't it be cooler that you could change that "ugly" cube and place instead one 3D object? In this example you will use the [Cartoon Cat](https://www.assetstore.unity3d.com/en/#!/content/70180) asset that you can found on the Asset Store.
+The image on top ilustrates the current scene. Currently this game will just place one cube wherever you touch the screen. But wouldn't it be cooler that you could change that "ugly" cube and place instead one 3D object? In this example you will use the [Cartoon Cat](https://www.assetstore.unity3d.com/en/#!/content/70180) asset that can be found on the Asset Store.
 
-- Replace the `HitCube` gameobject for one of the 3D models that you can find in the Cartoon Cat asset
+- Replace the `HitCube` gameobject for one of the 3D models in the Cartoon Cat asset
 - Delete `RandomCube` gameobject
 - In the assets folder search for `shadowPlanePrefab` and add it to the Scene
 - On `CameraParent` reset the axis to `x:0, y:0, z:0`. Do the same with `HitCubeParent` gameobject, and `shadowPlanePrefab`
@@ -73,7 +72,8 @@ And you have finish! Make sure your iOS Device is plugged in, and click play but
 
 ## Acknowledgments
 
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
+- [Unity AR Kit Plugin reference](https://www.assetstore.unity3d.com/en/#!/content/92515)
+- [YouTube tutoria](https://www.youtube.com/watch?v=EbbpAMr9JL4)
+- Previous experience building Xcode apps
+
 
