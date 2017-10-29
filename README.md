@@ -12,70 +12,68 @@ If you want to use the AR Kit plugin on your project you must follow this step-b
 - Macinstosh device with Xcode 9 installed
 - Unity
 
-### Installing
-
-**Follow the next steps:**
+### Installation
 
 1. Open Unity on your device and download the [AR Kit Plugin](https://www.assetstore.unity3d.com/en/#!/content/92515)
 2. Once donwloaded, import the files off the plugin
 3. You are ready to go!
 
-End with an example of getting some data out of the system or using it for a little demo
 
 ## Getting deeper
 
 I have the plugin installed but, now what?
 
-### Understanding the assets
+### The assets
 
-When you have all the files imported, you must think, how do I do something with this? Well, we are on the go
+When you have all the files imported, you must think, how do I do something with this? Well, we are on our way
 
 First of all navigate through the folders and find the one called `/Examples/UnityARKitScene` double click on the asset **UnityARKitScene**.
 You must see something like this: 
 
-```
-Give an example
-```
+![GameObject](https://user-images.githubusercontent.com/22442331/32144053-4da596a4-bcb3-11e7-8393-5e81536f44b0.png)
 
-### And coding style tests
+### Understanding the game objects
 
-Explain what these tests test and why
+The image on top ilustrates the current scene. Currently this game will just place one cube wherever you touch the screen. But wouldn't it be cooler that you could change that "ugly" cube and place instead one 3D object? In this example you will use the [Cartoon Cat](https://www.assetstore.unity3d.com/en/#!/content/70180) asset that can be found on the Asset Store.
 
-```
-Give an example
-```
+- Replace the `HitCube` gameobject for one of the 3D models in the Cartoon Cat asset
+- Delete `RandomCube` gameobject
+- In the assets folder search for `shadowPlanePrefab` and add it to the Scene
+- On `CameraParent` reset the axis to `x:0, y:0, z:0`. Do the same with `HitCubeParent` gameobject, and `shadowPlanePrefab`
 
-## Deployment
+After doing the instructions on top, the scene must be something like this:
 
-Add additional notes about how to deploy this on a live system
+![LastScene](https://user-images.githubusercontent.com/22442331/32145234-51e57dbc-bcc5-11e7-8afa-3a763ed106bb.png)
 
-## Built With
+Then you just have to build the game with:  ⇧ + ⌘ + B
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+Keep reading to learn how to build the project in *Xcode*
 
-## Contributing
+### Xcode project building
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+Open *Xcode* and search the path of the builded unity game. In my case is `/Unity/AR Test/Builds`
 
-## Versioning
+Once opened, you have to modify the `Unity-iPhone` build file. Change the name of the app on `Display Name`, and the bundle identifier.
+You have to sign the app with your Developer account. Change the Deployment Target to `iOS 11.0`.
+Device orientation has to be like this:
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+- [x] Portrait
+- [ ] Upside Down
+- [x] Landscape Left
+- [x] Landscape Right 
 
-## Authors
+And you have finish! Make sure your iOS Device is plugged in, and click play button to build the project.
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+## Demo
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/22442331/32146674-3b3d45d4-bcdb-11e7-98c6-a08e5ce4b8ee.gif" alt="Gif"/>
+</p>
 
 ## Acknowledgments
 
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
+- [Unity AR Kit Plugin reference](https://www.assetstore.unity3d.com/en/#!/content/92515)
+- [YouTube tutorial](https://www.youtube.com/watch?v=EbbpAMr9JL4)
+- Previous experience building Xcode apps
+
 
