@@ -20,8 +20,6 @@ If you want to use the AR Kit plugin on your project you must follow this step-b
 2. Once donwloaded, import the files off the plugin
 3. You are ready to go!
 
-End with an example of getting some data out of the system or using it for a little demo
-
 ## Getting deeper
 
 I have the plugin installed but, now what?
@@ -38,12 +36,18 @@ You must see something like this:
 
 ### Understanding the game objects
 
-The image on top ilustrates our current scene. Currently this game will just place one cube wherever we touch the screen. But wouldn't it be cooler that we could change that "ugly" cube and place instead one 3D object? In this example we are using the [Cartoon Cat](https://www.assetstore.unity3d.com/en/#!/content/70180) asset that we found on the Asset Store.
+The image on top ilustrates the current scene. Currently this game will just place one cube wherever you touch the screen. But wouldn't it be cooler that you could change that "ugly" cube and place instead one 3D object? In this example you will use the [Cartoon Cat](https://www.assetstore.unity3d.com/en/#!/content/70180) asset that you can found on the Asset Store.
 
 
-We just have to replace the `HitCube` gameobject for one of the 3D models that we can find in the Cartoon Cat asset. 
+You just have to replace the `HitCube` gameobject for one of the 3D models that you can find in the Cartoon Cat asset.
 
-Then, we are ready to go! Just build the game with:  ⇧ + ⌘ + B
+After adding the 3D model, the scene must be something like this:
+
+
+
+Then you just have to build the game with:  ⇧ + ⌘ + B
+
+Keep reading to learn how to build the project on *Xcode*
 
 ### Xcode project building
 
