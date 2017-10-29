@@ -26,52 +26,31 @@ End with an example of getting some data out of the system or using it for a lit
 
 I have the plugin installed but, now what?
 
-### Understanding the assets
+### The assets
 
-When you have all the files imported, you must think, how do I do something with this? Well, we are on the go
+When you have all the files imported, you must think, how do I do something with this? Well, we are on our way
 
 First of all navigate through the folders and find the one called `/Examples/UnityARKitScene` double click on the asset **UnityARKitScene**.
 You must see something like this: 
 
-```
-Give an example
-```
+![GameObject](https://user-images.githubusercontent.com/22442331/32144053-4da596a4-bcb3-11e7-8393-5e81536f44b0.png)
 
-### And coding style tests
 
-Explain what these tests test and why
+### Understanding the game objects
 
-```
-Give an example
-```
+The image on top ilustrates our current scene. Currently this game will just place one cube wherever we touch the screen. But wouldn't it be cooler that we could change that "ugly" cube and place instead one 3D object? In this example we are using the [Cartoon Cat](https://www.assetstore.unity3d.com/en/#!/content/70180) asset that we found on the Asset Store.
 
-## Deployment
+
+We just have to replace the `HitCube` gameobject for one of the 3D models that we can find in the Cartoon Cat asset. 
+
+Then, we are ready to go! Just build the game with:  ⇧ + ⌘ + B
+
+### Xcode project building
 
 Add additional notes about how to deploy this on a live system
 
-## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
 
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgments
 
