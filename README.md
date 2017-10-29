@@ -38,20 +38,22 @@ You must see something like this:
 
 The image on top ilustrates the current scene. Currently this game will just place one cube wherever you touch the screen. But wouldn't it be cooler that you could change that "ugly" cube and place instead one 3D object? In this example you will use the [Cartoon Cat](https://www.assetstore.unity3d.com/en/#!/content/70180) asset that you can found on the Asset Store.
 
+- Replace the `HitCube` gameobject for one of the 3D models that you can find in the Cartoon Cat asset
+- Delete `RandomCube` gameobject
+- In the assets folder search for `shadowPlanePrefab` and add it to the Scene
+- On `CameraParent` reset the axis to `x:0, y:0, z:0`. Do the same with `HitCubeParent` gameobject, and `shadowPlanePrefab`
 
-You just have to replace the `HitCube` gameobject for one of the 3D models that you can find in the Cartoon Cat asset.
+After doing the instructions on top, the scene must be something like this:
 
-After adding the 3D model, the scene must be something like this:
-
-
+![LastScene](https://user-images.githubusercontent.com/22442331/32144897-49337822-bcc0-11e7-8985-cd680c53c5f7.png)
 
 Then you just have to build the game with:  ⇧ + ⌘ + B
 
-Keep reading to learn how to build the project on *Xcode*
+Keep reading to learn how to build the project in *Xcode*
 
 ### Xcode project building
 
-Add additional notes about how to deploy this on a live system
+Open *Xcode* and search 
 
 
 
