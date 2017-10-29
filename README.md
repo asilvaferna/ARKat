@@ -73,7 +73,7 @@ And you have finish! Make sure your iOS Device is plugged in, and click play but
 ## Acknowledgments
 
 - [Unity AR Kit Plugin reference](https://www.assetstore.unity3d.com/en/#!/content/92515)
-- [YouTube tutoria](https://www.youtube.com/watch?v=EbbpAMr9JL4)
+- [YouTube tutorial](https://www.youtube.com/watch?v=EbbpAMr9JL4)
 - Previous experience building Xcode apps
 
 
