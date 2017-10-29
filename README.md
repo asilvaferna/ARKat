@@ -67,6 +67,10 @@ And you have finish! Make sure your iOS Device is plugged in, and click play but
 
 ## Demo
 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/22442331/32146674-3b3d45d4-bcdb-11e7-98c6-a08e5ce4b8ee.gif" alt="Gif"/>
+</p>
+
 ## Acknowledgments
 
 * Hat tip to anyone who's code was used
