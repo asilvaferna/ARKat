@@ -33,7 +33,6 @@ You must see something like this:
 
 ![GameObject](https://user-images.githubusercontent.com/22442331/32144053-4da596a4-bcb3-11e7-8393-5e81536f44b0.png)
 
-
 ### Understanding the game objects
 
 The image on top ilustrates the current scene. Currently this game will just place one cube wherever you touch the screen. But wouldn't it be cooler that you could change that "ugly" cube and place instead one 3D object? In this example you will use the [Cartoon Cat](https://www.assetstore.unity3d.com/en/#!/content/70180) asset that you can found on the Asset Store.
@@ -45,7 +44,7 @@ The image on top ilustrates the current scene. Currently this game will just pla
 
 After doing the instructions on top, the scene must be something like this:
 
-![LastScene](https://user-images.githubusercontent.com/22442331/32144897-49337822-bcc0-11e7-8985-cd680c53c5f7.png)
+![LastScene](https://user-images.githubusercontent.com/22442331/32145234-51e57dbc-bcc5-11e7-8afa-3a763ed106bb.png)
 
 Then you just have to build the game with:  ⇧ + ⌘ + B
 
@@ -53,10 +52,20 @@ Keep reading to learn how to build the project in *Xcode*
 
 ### Xcode project building
 
-Open *Xcode* and search 
+Open *Xcode* and search the path of the builded unity game. In my case is `/Unity/AR Test/Builds`
 
+Once opened, you have to modify the `Unity-iPhone` build file. Change the name of the app on `Display Name`, and the bundle identifier.
+You have to sign the app with your Developer account. Change the Deployment Target to `iOS 11.0`.
+Device orientation has to be like this:
 
+- [x] Portrait
+- [ ] Upside Down
+- [x] Landscape Left
+- [x] Landscape Right 
 
+And you have finish! Make sure your iOS Device is plugged in, and click play button to build the project.
+
+## Demo
 
 ## Acknowledgments
 
